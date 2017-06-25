@@ -8,13 +8,13 @@
         {
             "name": "Cecily",
             "physical": 24,
-            "mental":   117,
-            "tactical": 31,
+            "mental":   118,
+            "tactical": 32,
         },
         {
             "name": "Nanasomi",
-            "physical": 39,
-            "mental":   25,
+            "physical": 40,
+            "mental":   26,
             "tactical": 114,
         },
         {
@@ -26,13 +26,13 @@
         {
             "name": "Raelthota",
             "physical": 24,
-            "mental":   85,
-            "tactical": 61,
+            "mental":   88,
+            "tactical": 62,
         },
         {
             "name": "Rivienne",
             "physical": 23,
-            "mental":   113,
+            "mental":   114,
             "tactical": 29,
         },
         {
@@ -43,9 +43,9 @@
         },
         {
             "name": "Oah Nelhah",
-            "physical": 60,
+            "physical": 61,
             "mental":   36,
-            "tactical": 72,
+            "tactical": 75,
         },
         {
             "name": "Nunulupa Tatalupa",

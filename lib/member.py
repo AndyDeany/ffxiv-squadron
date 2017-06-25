@@ -3,7 +3,7 @@ class Member:
     members = []
 
     def __init__(self, name, physical, mental, tactical):
-        self.name = name.capitalize()
+        self.name = name
         self.physical = physical
         self.mental = mental
         self.tactical = tactical

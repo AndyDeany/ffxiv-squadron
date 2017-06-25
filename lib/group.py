@@ -1,7 +1,5 @@
 class Group:
-    def __init__(self, members,
-                 base_physical, base_mental, base_tactical,
-                 required_physical, required_mental, required_tactical):
+    def __init__(self, members, base_physical, base_mental, base_tactical):
         self.members = members
         self.physical = base_physical
         self.mental = base_mental
@@ -11,6 +9,7 @@ class Group:
             self.mental += member.mental
             self.tactical += member.tactical
 
+    def calculate_missing(self, required_physical, required_mental, required_tactical):
         self.missing = 0
         missing_physical = required_physical - self.physical
         missing_mental = required_mental - self.mental

@@ -1,4 +1,10 @@
 class Group:
+    groups = []
+
+    @classmethod
+    def sort_groups(cls):
+        cls.groups.sort(key=lambda g: g.missing)
+
     def __init__(self, members, base_physical, base_mental, base_tactical):
         self.members = members
         self.physical = base_physical
@@ -8,6 +14,8 @@ class Group:
             self.physical += member.physical
             self.mental += member.mental
             self.tactical += member.tactical
+
+        self.groups.append(self)
 
     def calculate_missing(self, required_physical, required_mental, required_tactical):
         self.missing = 0

@@ -2,56 +2,56 @@
     "base": {
         "physical": 140,
         "mental":   40,
-        "tactical": 100,
+        "tactical": 100
     },
     "members": [
         {
             "name": "Cecily",
             "physical": 24,
             "mental":   118,
-            "tactical": 32,
+            "tactical": 32
         },
         {
             "name": "Nanasomi",
             "physical": 40,
             "mental":   26,
-            "tactical": 114,
+            "tactical": 114
         },
         {
             "name": "Hastaloeya",
             "physical": 103,
             "mental":   24,
-            "tactical": 43,
+            "tactical": 43
         },
         {
             "name": "Raelthota",
             "physical": 24,
             "mental":   88,
-            "tactical": 62,
+            "tactical": 62
         },
         {
             "name": "Rivienne",
             "physical": 23,
             "mental":   114,
-            "tactical": 29,
+            "tactical": 29
         },
         {
             "name": "Teulzacq",
             "physical": 59,
             "mental":   35,
-            "tactical": 72,
+            "tactical": 72
         },
         {
             "name": "Oah Nelhah",
             "physical": 61,
             "mental":   36,
-            "tactical": 75,
+            "tactical": 75
         },
         {
             "name": "Nunulupa Tatalupa",
             "physical": 22,
             "mental":   91,
-            "tactical": 45,
-        },
+            "tactical": 45
+        }
     ]
 }

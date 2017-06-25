@@ -2,7 +2,8 @@ class Member:
     """Class for squadron members"""
     members = []
 
-    def __init__(self, physical, mental, tactical):
+    def __init__(self, name, physical, mental, tactical):
+        self.name = name.capitalize()
         self.physical = physical
         self.mental = mental
         self.tactical = tactical
@@ -10,4 +11,4 @@ class Member:
         self.members.append(self)
 
     def __str__(self):
-        return str((self.physical, self.mental, self.tactical))
+        return self.name + " " + str((self.physical, self.mental, self.tactical))

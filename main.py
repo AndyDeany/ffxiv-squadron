@@ -27,5 +27,5 @@ def mission(required_physical, required_mental, required_tactical):
     print("----------|-----|-----|-----|--------")
     print(" | ".join(("required:", str(required_physical), str(required_mental), str(required_tactical))) + " |")
     print("----------|-----|-----|-----|--------")
-    for group in Group.groups:
+    for group in Group.groups[:10]:
         print(" | ".join((" " * 9, str(group.physical), str(group.mental), str(group.tactical), str(group))))

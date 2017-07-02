@@ -7,9 +7,9 @@
     "members": [
         {
             "name": "Cecily",
-            "physical": 25,
+            "physical": 26,
             "mental":   120,
-            "tactical": 33
+            "tactical": 34
         },
         {
             "name": "Nanasomi",
@@ -25,21 +25,21 @@
         },
         {
             "name": "Raelthota",
-            "physical": 25,
+            "physical": 26,
             "mental":   90,
-            "tactical": 63
+            "tactical": 64
         },
         {
             "name": "Rivienne",
             "physical": 24,
-            "mental":   114,
-            "tactical": 30
+            "mental":   115,
+            "tactical": 31
         },
         {
             "name": "Teulzacq",
             "physical": 61,
             "mental":   36,
-            "tactical": 73
+            "tactical": 75
         },
         {
             "name": "Oah Nelhah",
